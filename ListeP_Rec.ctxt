@@ -1,0 +1,30 @@
+#BlueJ class context
+comment0.target=ListeP_Rec
+comment1.params=
+comment1.target=java.lang.Object\ car()
+comment10.params=
+comment10.target=java.util.Iterator\ iterator()
+comment11.params=
+comment11.target=boolean\ hasNext()
+comment12.params=
+comment12.target=java.lang.Object\ next()
+comment13.params=
+comment13.target=void\ remove()
+comment2.params=
+comment2.target=void\ cdr()
+comment3.params=obj
+comment3.target=void\ cons(java.lang.Object)
+comment4.params=liste
+comment4.target=void\ conc(ListePointInterface)
+comment5.params=index
+comment5.target=java.lang.Object\ getValue(int)
+comment6.params=
+comment6.target=void\ renverse()
+comment7.params=objet
+comment7.target=boolean\ membre(java.lang.Object)
+comment8.params=
+comment8.target=java.lang.String\ toString()
+comment9.params=
+comment9.target=java.lang.Object\ clone()
+comment9.text=\r\n\ \ \ \ //\ Ces\ trois\ m\u00E9thodes\ existent\ dans\ la\ classe\ ListePointAbstract\r\n\ \ \ \ public\ \ boolean\ listeVide(){\r\n\ \ \ \ \ \ \ \ return\ nbreElements\ \=\=\ 0;\r\n\ \ \ \ }\r\n\r\n\ \ \ \ public\ \ int\ longueur(){\r\n\ \ \ \ \ \ \ \ return\ nbreElements;\r\n\ \ \ \ }\r\n\r\n\ \ \ \ public\ boolean\ equals(Object\ obj){\r\n\ \ \ \ \ \ \ \ if\ (obj\ \=\=\ null)\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ return\ false;\r\n\ \ \ \ \ \ \ \ if(\!(obj\ instanceof\ ListePointInterface))\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ return\ false;\r\n\r\n\ \ \ \ \ \ \ \ ListePointInterface\ lst\ \=\ (ListePointInterface)obj;\r\n\ \ \ \ \ \ \ \ if(longueur()\ \!\=\ lst.longueur())\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ return\ false;\r\n\r\n\ \ \ \ \ \ \ \ //\ Dans\ le\ cas\ o\u00F9\ l'ordre\ des\ \u00E9l\u00E9ments\ n'est\ pas\ important\r\n\ \ \ \ \ \ \ \ for\ (int\ i\ \=\ 0;\ i\ <\ longueur();\ i\ +\=\ 1)\r\n\ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ if\ (\!membre(lst.getValue(i)))\ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ false;\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ return\ true;\r\n\r\n\ \ \ \ \ \ \ \ //\ Si\ l'ordre\ des\ \u00E9l\u00E9ments\ est\ important\:\r\n\r\n\ \ \ \ \ \ \ \ //\ Solution\ sans\ utilisation\ de\ toString()\r\n\ \ \ \ \ \ \ \ for\ (int\ i\ \=\ 0;\ i\ <\ longueur();\ i\ +\=\ 1)\r\n\ \ \ \ \ \ \ \ \ \ \ \ if\ ((elem\ \!\=\ null)\ &&\ \!elem.valeur().equals(lst.getValue(i)))\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ false;\r\n\r\n\ \ \ \ \ \ \ //\ Solution\ avec\ utilisation\ toString()\r\n\ \ \ \ \ \ \ return\ this.toString().equals(lst.toString());\r\n\ \ \ \ }\r\n
+numComments=14

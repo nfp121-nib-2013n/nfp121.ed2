@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=ListePointInterface
+comment1.params=
+comment1.target=java.lang.Object\ car()
+comment1.text=\r\n\ Le\ mot\ "public"\ est\ facultatif\ c'est\ parce\ que\ toutes\r\n\ les\ m\u00E9thodes\ d'une\ interface\ sont\ publiques\r\n
+comment2.params=
+comment2.target=void\ cdr()
+comment3.params=objet
+comment3.target=void\ cons(java.lang.Object)
+comment4.params=lst
+comment4.target=void\ conc(ListePointInterface)
+comment5.params=index
+comment5.target=java.lang.Object\ getValue(int)
+comment6.params=
+comment6.target=void\ renverse()
+comment7.params=objet
+comment7.target=boolean\ membre(java.lang.Object)
+comment8.params=
+comment8.target=boolean\ listeVide()
+comment9.params=
+comment9.target=int\ longueur()
+numComments=10

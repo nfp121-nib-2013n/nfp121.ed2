@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=ListeP_Java
+comment1.params=
+comment1.target=java.lang.Object\ car()
+comment10.params=
+comment10.target=java.lang.Object\ clone()
+comment2.params=
+comment2.target=void\ cdr()
+comment3.params=objet
+comment3.target=void\ cons(java.lang.Object)
+comment4.params=li
+comment4.target=void\ conc(ListePointInterface)
+comment5.params=index
+comment5.target=java.lang.Object\ getValue(int)
+comment6.params=
+comment6.target=void\ renverse()
+comment7.params=objet
+comment7.target=boolean\ membre(java.lang.Object)
+comment8.params=
+comment8.target=java.util.Iterator\ iterator()
+comment8.text=\ \r\n\ \ \ \ //\ Ces\ trois\ m\u00E9thodes\ existent\ d\u00E9j\u00E0\ dans\ la\ classe\ ListePointAbstract\r\n\ \ \ \ public\ boolean\ listeVide(){\r\n\ \ \ \ \ \ \ \ return\ liste.isEmpty();\r\n\ \ \ \ }\r\n\r\n\ \ \ \ public\ int\ longueur(){\r\n\ \ \ \ \ \ \ \ return\ liste.size();\r\n\ \ \ \ }\r\n\r\n\ \ \ \ public\ boolean\ equals(Object\ obj){\r\n\ \ \ \ \ \ \ \ if(obj\ \=\=\ null)\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ return\ false;\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ if(\!(obj\ instanceof\ ListePointInterface))\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ return\ false;\r\n\r\n\ \ \ \ \ \ \ \ ListePointInterface\ lst\ \=\ (ListePointInterface)obj;\r\n\ \ \ \ \ \ \ \ if(longueur()\ \!\=\ lst.longueur())\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ return\ false;\r\n\r\n\ \ \ \ \ \ \ \ return\ liste.toString().equals(lst.toString());\r\n\ \ \ \ }\r\n
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=11
